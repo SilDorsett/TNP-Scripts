@@ -22,7 +22,7 @@ NS_HOME=/mnt/nationstates
 # This Spreadsheet has a list of the Delegate, VD, and SC members.
 SPREADSHEET_ID="1G9aqm9JVlr447Rg5A4G3zjhpkEf92qRZRR5oE7p8_Fc"
 RANGE_NAME="Sheet1!C1:C"
-JSON_KEY_FILE="/home/nationstates/data/tnpstatistics-8365189f5916.json"
+JSON_KEY_FILE="/home/nationstates/data/tnpstatistics-0bad485533ef.json"
 
 # Call the Python script to retrieve the list of Security Council members
 cell_value=$(python /home/nationstates/scripts/utils/read_sc_sheet.py $SPREADSHEET_ID $RANGE_NAME $JSON_KEY_FILE)

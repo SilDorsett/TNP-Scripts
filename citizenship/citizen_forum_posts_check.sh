@@ -10,7 +10,7 @@ NS_HOME=/mnt/nationstates
 # This Spreadsheet has a list of the Delegate, VD, and SC members.
 SPREADSHEET_ID="1aQ9EplmCzZLz7AmWQwpSXiCPo60AdyGG97PR1lD2tWM"
 RANGE_NAME="Citizens!A3:E"
-JSON_KEY_FILE="/home/nationstates/data/tnpstatistics-8365189f5916.json"
+JSON_KEY_FILE="/home/nationstates/data/tnpstatistics-0bad485533ef.json"
 
 cit_profile_list=$(python /home/nationstates/scripts/utils/read_citizens_data.py "$SPREADSHEET_ID" "$RANGE_NAME" "$JSON_KEY_FILE")
 
